@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
-   public void restartbtn()
+   public void RestartButton()
     {
         SceneManager.LoadScene("GamePlay_Level1");
     }

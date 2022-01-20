@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coinrotate : MonoBehaviour
+public class CoinRotate : MonoBehaviour
 {
-    float rotatespeed = 60;
+    float rotateSpeed = 60;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class Coinrotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, rotatespeed * Time.deltaTime, 0);
+        transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
     }
 }
